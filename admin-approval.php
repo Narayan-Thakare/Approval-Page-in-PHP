@@ -27,6 +27,7 @@ include 'connection.php';
         while ($row = mysqli_fetch_array($result)){
         ?>
         <tr>
+            
             <td><?php echo $row['id']; ?></td>
             <td><?php echo $row['username']; ?></td>
             <td><?php echo $row['email_address']; ?></td>
